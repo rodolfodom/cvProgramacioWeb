@@ -1,0 +1,87 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgba(136, 211, 247, 1) 0%, rgba(136, 211, 247, 1) 39%, rgba(229, 236, 238, 1) 45%);
+}
+
+h1 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 40% 60% ;
+}
+
+.derecha {
+    margin: 0;
+    padding: 32px;
+    background-color: rgba(229, 236, 238, 1);
+}
+
+.izquierda {
+    margin: 0;
+    padding: 32px;
+    background: linear-gradient(90deg, rgba(136, 211, 247, 1) 0%, rgba(136, 211, 247, 1) 89%, rgba(229, 236, 238, 1) 100%);
+    
+}
+
+.profile-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.profile {
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+tr > * {
+    background-color: rgb(135, 217, 238);
+    text-align: center;
+    padding: 10px;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+.tecs {
+    margin: 0 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card > figcaption{
+    text-align: center;
+}
+
+.card > figure > img {
+    width: 100%;
+    height: auto;
+}
+
+.card > figure {
+    margin-bottom: 0px;
+}
